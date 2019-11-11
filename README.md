@@ -7,7 +7,7 @@ It exposes the statuses (`:wait_readable` or `wait_writable`) of a socket when
 the non-blocking methods are used.
 
 It is then possible to manually handle them (for example, by using multiple
-fibers and switching between them as each socket gets into an waiting state).
+fibers and switching between them as each socket gets into a waiting state).
 
 ## Acknowledgments
 
